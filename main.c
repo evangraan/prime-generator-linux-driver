@@ -7,12 +7,12 @@ MODULE_AUTHOR("Ernst van Graan");
 
 static int generator_init(void)
 {
-    printk(KERN_NOTICE "[Prime generator] initializing");
+    printk(KERN_NOTICE "[prime-generator] initializing");
     return register_generator();
 }
 static void generator_exit(void)
 {
-    printk(KERN_NOTICE "[Prime generator] exiting");
+    printk(KERN_NOTICE "[prime-generator] exiting");
     unregister_generator();
 }
 
