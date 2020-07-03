@@ -1,0 +1,15 @@
+.cache.mk
+.generator.o.cmd
+.main.o.cmd
+.prime-generator.ko.cmd
+.prime-generator.mod.o.cmd
+.prime-generator.o.cmd
+.tmp_versions
+Module.symvers
+generator.o
+main.o
+modules.order
+prime-generator.ko
+prime-generator.mod.c
+prime-generator.mod.o
+prime-generator.o
